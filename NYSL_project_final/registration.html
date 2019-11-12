@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Styles/nysl_5.css">
+</head>
+<body>
+    <header class="container flexheader">
+        <a href="index.html">
+            <img class="headerlogo" src="images/nysl_logo.png" alt="NYSL logo" width="170">
+        </a>        
+        <nav>
+            <ul class="headernav">
+                <li>
+                    <a class="navoptions btn" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navoptions btn" href="rules.html">Rules</a>
+                </li>
+                <li>
+                    <a class="navoptions btn" href="game_info.html">Info</a>
+                </li>
+                <li>
+                    <a class="navoptions btn active">Register</a>
+                </li>
+                <li>
+                    <a class="navoptions btn" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="navoptions btn" href="contacts.html">Contact</a>
+                </li>
+            </ul>
+        </nav>     
+    </header>    
+    <section class="container2 group">
+        <h1 class="sectiontitle">REGISTRATION FORM</h1>
+        <br><br>
+        <div class="registrationformcustom">
+            <form action="show_data.html" method="GET" autocomplete="on">
+                <div class="formsection1flex">
+                    <div class="questioncustom">
+                        Player&apos;s First Name:<br>
+                        <input type="text" name="username" placeholder="Your first name here" class="regularquestion">
+                    </div>
+                    <div class="questioncustom">
+                        Last Name:<br>
+                        <input type="text" name="lastname" placeholder="Your Surname name here" class="regularquestion">
+                    </div>
+                </div>
+                <div class="formsection1flex">
+                    <div class="questioncustom">
+                        Street Address:<br>
+                        <input type="text" name="street address" placeholder="Your address" class="largequestion">
+                    </div>
+                    <div class="questioncustom">
+                        City:<br>
+                        <input type="text" name="city" placeholder="your city" class="smallquestion">
+                    </div>
+                    <div class="questioncustom">
+                        Zip Code:<br>
+                    <input type="text" name="zipcode" placeholder="your zip code" class="smallquestion">
+                    </div>
+                </div>
+                <div class="formsection1flex">
+                    <div class="questioncustom">
+                        Birth Date:<br>
+                        <input type="date" name="birthdate" class="smallquestion">
+                    </div>
+                    <div class="questioncustom">    
+                        Gender:<br>
+                        <input type="radio" name="gender" value="female" class="smallquestion">Female
+                        <input type="radio" name="gender" value="male" class="smallquestion">Male
+                    </div>
+                    <div class="questioncustom" >  
+                        Grade:<br>
+                        <input type="radio" name="grade" value="preschool">Pre-School
+                        <input type="radio" name="grade" value="1st">1st
+                        <input type="radio" name="grade" value="2nd">2nd
+                        <input type="radio" name="grade" value="3rd">3rd
+                        <input type="radio" name="grade" value="4th">4th
+                        <input type="radio" name="grade" value="5th">5th
+                    </div>
+                    <div class="questioncustom">      
+                        Parent/Guardian:<br>
+                        <input type="text" name="parent_guardian" placeholder="Your parent/guardian name" class="regularquestion">
+                    </div>
+                    <div class="questioncustom">      
+                        Contact Phone:<br>
+                        <input type="tel" name="contactphone" placeholder="00000000000" class="smallquestion">
+                    </div>
+                    <div class="questioncustom">      
+                        Contact Email:<br>
+                        <input type="email" name="contactmail" placeholder="xxxxx@xxxx.xxx" class="smallquestion">
+                    </div>
+                </div>
+                <br>
+                 
+                <label><strong>Which elementary schools do you live near?</strong></label>
+                
+                <div class="formsection1flex">
+                    <div class="questioncustom"> 
+                        First Closest School:<br>
+                        <select name="firstclosestschool">
+                            <option value="empty" style="display: none" selected>Select one</option> 
+                            <option value="ajkatzenmaier">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="howardayeager">Howard A Yeager</option>
+                            <option value="marjoriephart">Marjorie P Hart</option>
+                            <option value="northelementary">North Elementary</option>
+                            <option value="southelementary">South Elementary</option>
+                        </select>
+                    </div>
+                    <div class="questioncustom"> 
+                        Second Closest School:<br>
+                        <select name="firstclosestschool">
+                            <option value="empty" style="display: none" selected>Select one</option>
+                            <option value="ajkatzenmaier">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="howardayeager">Howard A Yeager</option>
+                            <option value="marjoriephart">Marjorie P Hart</option>
+                            <option value="northelementary">North Elementary</option>
+                            <option value="southelementary">South Elementary</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="questioncustom">     
+                    What position(s) do you normally play? (check all that apply):<br>
+                    <input type="checkbox" name="positionplay" value="forward">Forward
+                    <input type="checkbox" name="positionplay" value="midfield">Midfield
+                    <input type="checkbox" name="positionplay" value="defense">Defense
+                    <input type="checkbox" name="positionplay" value="goalkeeper">Goalkeeper
+                </div>
+                <div class="questioncustom">     
+                    What position(s) do you want to play? (check all that apply):<br>
+                    <input type="checkbox" name="positionwanted" value="forward">Forward
+                    <input type="checkbox" name="positionwanted" value="midfield">Midfield
+                    <input type="checkbox" name="positionwanted" value="defense">Defense
+                    <input type="checkbox" name="positionwanted" value="goalkeeper">Goalkeeper
+                </div>
+                <div class="questioncustom">     
+                    <input type="checkbox" name="uniform" value="ownsuniform">Already have a uniform.
+                </div>
+                <div class="questioncustom">     
+                    Jersey Size:<br>
+                    <input type="radio" name="jerseysize" value="ysmall">Youth Small
+                    <input type="radio" name="jerseysize" value="ymedium">Youth Medium
+                    <input type="radio" name="jerseysize" value="ylarge">Youth Large
+                    <input type="radio" name="jerseysize" value="small">Small
+                    <input type="radio" name="jerseysize" value="medium">Medium
+                    <input type="radio" name="jerseysize" value="large">Large
+                    <input type="radio" name="jerseysize" value="xlarge">Extra-Large
+                </div>
+                <div class="questioncustom">     
+                    Shorts Size:<br>
+                    <input type="radio" name="shortssize" value="ysmall">Youth Small
+                    <input type="radio" name="shortssize" value="ymedium">Youth Medium
+                    <input type="radio" name="shortssize" value="ylarge">Youth Large
+                    <input type="radio" name="shortssize" value="small">Small
+                    <input type="radio" name="shortssize" value="medium">Medium
+                    <input type="radio" name="shortssize" value="large">Large
+                    <input type="radio" name="shortssize" value="xlarge">Extra-Large
+                </div>
+                <div class="questioncustom"> 
+                    <input type="submit" name="submit" value="Send">
+                </div>
+                <br>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>

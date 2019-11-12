@@ -1,0 +1,370 @@
+
+/* 
+=====================
+        GRID
+=====================     
+*/
+.container {
+    margin: 10px 80px 30px 50px;
+    padding-left: 50px;
+    padding-right: 80px;
+    width: auto;
+    height: auto;  
+}
+.container2 {
+    margin: 30px 80px 30px 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+    height: auto;
+}
+
+/* 
+=====================
+    BACKGROUND
+=====================     
+*/
+body {
+    background-image: linear-gradient(to bottom, rgba(36, 128, 36, 0.95), rgba(36, 128, 36, 0.95)), url("../Images/design2_image1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* 
+=====================
+ HEADER POSITIONING
+=====================     
+*/
+.flexheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.headerlogo {
+    width:20%;
+}
+
+/* 
+=====================
+ SECTION POSITIONING
+=====================     
+*/
+.sectiontitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sectionsub {
+    text-align: center;
+}
+.indexsection1flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sectioninfoindex {
+    align-self: flex-start;
+    width: 60%;
+    margin-left: 40px;
+}
+.indexsection2flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sectionimageindex {
+    width:30%;
+}
+.formsection1flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: baseline;    
+}
+.formsection2flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: baseline;    
+}
+.sectiontablesflex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.locationsflex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sectionimage {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 1px teal;
+}
+.homeimage {
+    width:100%
+}
+#additionalinfophone {
+    width: 50%;
+    float:left;
+}
+#additionalinfoemail {
+    width: 50%;
+    float:right;
+}
+/*
+====================
+        NAV
+====================
+*/
+nav li {
+    display:inline-block;
+    padding-left: 10px;
+}
+nav a {
+    padding-left: 8px;
+}
+nav a:link {
+    color:lightgreen;
+    text-decoration: none;
+}
+nav a:visited {
+    color: lightgreen;
+    text-decoration: none;
+}
+nav a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav.active {
+    color:whitesmoke;
+    text-decoration: none;
+}
+/*
+====================
+    CUSTOM STYLES
+====================
+*/
+body {
+    color: whitesmoke;
+    font: 400 14px Verdana;
+}
+  
+h1 {
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: lightgreen;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 20px;
+}
+
+nav {
+    font: 700 16px arial;
+    text-transform: uppercase;
+}
+.special {
+    font-style: italic;
+  }
+strong {
+    font-weight: bold;
+}
+.events {
+    text-indent: 40px;
+    font: 400 16px Verdana;
+}
+.indexdates{
+    font: 600 18px verdana;
+    text-transform: uppercase;
+    color: lightgreen;
+    font-style: italic;
+}
+.questioncustom {
+    line-height: 34px;
+    margin: 20px;
+}
+label {
+    line-height: 34px;
+    margin: 20px;
+}
+.gamefield {
+    text-align: center;
+    font-size: 18px;
+    color: lightgreen;
+    width: 80%;
+    height: 50px;
+    border-bottom: none;
+}
+.infocontacts {
+    font: 400 16px Verdana;
+}
+#contactemail:link {
+    color: lightgreen;
+}
+/* 
+=====================
+        LISTS
+=====================     
+*/
+dt {
+    padding-left: 30px;
+    color: lightgreen;
+}
+ol.numeric {
+    list-style: decimal;
+    padding-left: 70px;
+}
+ol.alpha {
+    list-style: lower-latin;
+    padding-left: 70px;
+}
+ul {
+    list-style: square;
+    padding-left: 70px;
+    font-size: 14px;
+    line-height: 20px;
+}
+ol {
+    font-size: 14px;
+    line-height: 20px;
+}
+.secondlevellist {
+    list-style:circle;
+    padding-left: 60px;
+}
+/*
+=====================
+        TABLES
+=====================     
+*/
+table {
+    border-collapse: collapse;
+    margin-left: 60px;
+}
+th, td {
+    font-size: 14px;
+    border: 0px solid lightgreen;
+    padding: 5px 15px;
+}
+td {
+    border-bottom: 2px solid lightgreen;
+}
+.month {
+    width:80px;
+}
+iframe {
+    width:250px;
+    height: 250px;
+}
+.gamedate {
+    text-align:center;
+}
+thead {
+    color: lightgreen;
+    text-transform: uppercase;
+}
+table.gamelocations {
+    width: 25%
+}
+/*
+=====================
+        FORM
+=====================     
+*/
+
+input[type=text].smallquestion {
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+input[type=date].smallquestion {
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+input[type=tel].smallquestion {
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+input[type=email].smallquestion {
+    width: 180px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+input[type=text].regularquestion {
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+} 
+input[type=text].largequestion {
+    width: 650px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+select {
+    width:160px;
+    height: 25px;
+    border-radius: 20px;
+    text-indent: 10px;
+}
+select:hover {
+    background-color:lightgreen;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;    
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 25px;
+}
+input[type=submit]:hover {
+    background-color: black;
+}
+input[type=text].smallquestion:hover {
+    background-color: lightgreen;
+}
+input[type=date].smallquestion:hover {
+    background-color: lightgreen;
+}
+input[type=tel].smallquestion:hover {
+    background-color: lightgreen;
+}
+input[type=email].smallquestion:hover {
+    background-color: lightgreen;
+}
+input[type=text].regularquestion:hover {
+    background-color: lightgreen;
+}
+input[type=text].largequestion:hover {
+    background-color: lightgreen;
+}
